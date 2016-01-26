@@ -12,8 +12,8 @@ module.exports = {
     mainBundle:['./utils', './app']
   },                // for one file use array not object ex. ['./utils','./app']
   output:{
-    path:path.resolve('build/'), // virtual directory when running the dev server, not on disk
-    publicPath:'/public/assets/',
+    path:path.resolve('public/assets/'), // virtual directory when running the dev server, not on disk
+    publicPath: '/assets/',
     filename:'[name].js'
   },
   plugins:[commonsPlugin, new ExtractTextPlugin("styles.css")],

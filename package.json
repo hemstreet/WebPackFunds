@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "server-min-debug": " webpack-dev-server -d -p"
+    "server-min-debug": "webpack-dev-server -d -p"
   },
   "keywords": [],
   "author": "Justin Walk",
@@ -17,6 +17,8 @@
     "babel-preset-es2015": "^6.1.18",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "http-server": "*",
     "jshint": "^2.8.0",
     "jshint-loader": "^0.8.3",
     "less": "^2.5.3",
@@ -27,6 +29,7 @@
     "strip-loader": "^0.1.1",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "*"
   }
 }
